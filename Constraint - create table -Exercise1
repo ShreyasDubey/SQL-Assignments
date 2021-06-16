@@ -1,0 +1,4 @@
+create table Player(
+PId integer primary key,
+PName varchar2(20) not null,
+Ranking integer);
