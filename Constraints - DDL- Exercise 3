@@ -1,8 +1,0 @@
-TId Integer constraint fk_m references Tournament(TId),
-Player1 Integer references Player(PId),
-Player2 Integer references Player(PId),
-check(Player1<>Player2),
-MatchDt date not null,
-Winner Integer references Player(PId),
-Score varchar2(30) not null,
-Constraint pk_m primary key(MId,TId));
